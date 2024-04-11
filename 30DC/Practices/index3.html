@@ -39,6 +39,62 @@ padding: 5px 70px;
 margin: 70px;
 }
 
+ul.c
+{
+list-style-type: circle;
+}
+
+ul.d
+{
+list-style-type: square;
+}
+
+ol.a
+{
+list-style-type: upper-roman;
+}
+
+ol.b
+{
+list-style-type: georgian;
+}
+
+table.table
+{
+font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.table
+{
+    border: 5px solid black;
+    margin: 70px;
+}
+
+.table td, .table th
+{
+    border: 2px solid black;
+    padding: 20px;
+    
+}
+.table tr:nth-child(even){
+background-color: bisque;
+}
+
+.table tr:hover
+{
+background-color: blue;
+}
+
+.table th:hover
+{
+    background-color: chartreuse;
+    font-size: large;
+}
+
+
+
+
+
 
 
 
@@ -106,3 +162,102 @@ Backend">Backend</label>
 
 </form>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+
+<h2 style="color: black; background-color: aqua;">This is example of order list and unordered list items</h2>
+
+<ol class="a">
+<li>Naruto</li>
+<li>One piece</li>
+<li>Dragon ball Z</li>
+</ol>
+
+<ol class="b">
+<li>Naruto shipuuden</li>
+<li>One piece Luffy</li>
+<li>Dragon ball Z Goku</li>
+</ol>
+
+
+<ul class="c">
+<li>Samsung</li>
+<li>Iphone</li>
+<li>google pixel</li>
+</ul>
+
+<ul class="d">
+<li>One plus</li>
+<li>Realme</li>
+<li>Iqooo</li>
+</ul>
+
+
+
+<!-- Now creating a table -->
+<h1>Creating a Table for revision/ Practice  </h1>
+<table class="table">
+<tr>
+    <th>Japanese Grammer Pattern</th>
+    
+    <th>    Revsion</th>
+    <th class="hover">    Notes</th>
+</tr>
+
+
+<tr>
+    <td>te imasu</td>
+    <td>Yes</td>
+    <td>No</td>
+</tr>
+<tr>
+    <td>te arimasu</td>
+    <td>Yes</td>
+    <td>Yes</td>
+</tr>
+<tr>
+    <td>te kudasai</td>
+    <td>Yes</td>
+    <td>No</td>
+</tr>
+<tr>
+    <td>isshyouni</td>
+    <td>No</td>
+    <td>No</td>
+</tr>
+<tr>
+    <td>na kerebanarimaen</td>
+    <td>Yes</td>
+    <td>Yes</td>
+</tr>
+<tr>
+    <td>sou deska</td>
+    <td>No</td>
+    <td>yes</td>
+</tr>
+<tr>
+    <td>sayonara</td>
+    <td>Yes</td>
+    <td>Yes</td>
+</tr>
+<tr>
+    <td>kochirakoso</td>
+    <td>No</td>
+    <td>No</td>
+</tr>
+
+
+
+</table>
+
+</body>
+</html>
