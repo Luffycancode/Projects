@@ -79,7 +79,52 @@ margin: 5px
 
 </div>
 
+<br>
+<h1>Learning Grid here</h1>
 
+
+
+
+
+<style>
+
+
+
+.container
+{
+border: 7px solid;
+height: 250px;
+width: 750px;
+display: grid;
+grid-template-columns: 150px 150px 150px;
+row-gap: 10px;
+column-gap: 10px;
+overflow: scroll;
+
+
+
+}
+.q
+{
+grid-row:3/4;
+grid-column: 2/4;
+}
+.w
+{
+grid-row: 1/4;
+}
+</style>
+<div class="container">
+
+
+<div class="q all" style="background-color: yellow;">1</div>
+<div class="w all" style="background-color: aqua;">2</div>
+<div class="e all" style="background-color: beige;">3</div>
+<div class="r all" style="background-color: blue;">4</div>
+<div class="t all" style="background-color: brown;">5</div>
+<div class="y all" style="background-color: fuchsia;">6</div>
+
+</div>
 
 </body>
 </html>
